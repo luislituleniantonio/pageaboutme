@@ -84,4 +84,8 @@ header > div {
         justify-content: center;
         gap: 15px;
     }
+
+    header ul a {
+        font-size: .80rem;
+    }
 }
