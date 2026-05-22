@@ -1,0 +1,13 @@
+
+:root {
+    --color-font-100: #333;
+    --color-font-200: #222;
+    --color-font-300: #666;
+    --color-white: #eee;
+    --color-primary-100: #9ddd25;
+    --color-primary-hover: hsl(81, 73%, 70%);
+    --color-primary-200: #7ebe06;
+    --color-primary-300: #5e8d07;
+
+    --height: 80px;
+}

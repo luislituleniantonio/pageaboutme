@@ -1,0 +1,87 @@
+
+/*              HEADER ZONE            */
+
+header {
+    width: 100%;
+    padding: 20px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+
+    z-index: 1000;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    width: 96%;
+    height: 1px;
+    background-color: var(--color-font-100);
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .header-link {
+    display: flex;
+    gap: 25px;
+}
+
+header .header-link a{
+    opacity: 0.7;
+    padding: 10px 10px;
+    border-radius: 4px;
+    transition: .3s ease;
+    position: relative;
+    transform: translateY(0px);
+}
+
+header .header-link a:hover{
+    opacity: 1;
+    padding: 10px 10px;
+    color: var(--color-primary-300);
+    background-color: var(--color-primary-hover);
+    transform: translateY(-2px);
+}
+
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 25px;
+    background-color: var(--color-primary-100);
+    border: 1px solid var(--color-primary-300);
+
+    &:hover {
+        background-color: var(--color-primary-hover);
+        transition: background-color .3s;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+}

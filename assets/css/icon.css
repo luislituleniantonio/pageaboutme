@@ -1,0 +1,23 @@
+.arrow {
+    display: inline-flex;
+    align-items: center;
+    height: fit-content;
+    background-color: var(--color-primary-100);
+    border-radius: 50px;
+    position: relative;
+    padding-right: 10px;
+
+    top: -30px;
+
+    font-size: 48px;
+
+    & .bar {
+        width: 180px;
+        height: 5px;
+        background-color:black;
+        position: relative;
+        z-index: 0;
+        right: -20px;
+        top: 0px;
+    }
+}
