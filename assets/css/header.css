@@ -81,11 +81,25 @@ header > div {
 @media screen and (max-width: 550px) {
     
     header {
-        justify-content: center;
+        position: relative;
         gap: 15px;
+        justify-content: center;
+
+    }
+
+    .header-link {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0;
+        background-color: var(--color-white);
     }
 
     header ul a {
-        font-size: .80rem;
+        font-size: .90rem;
+        white-space: nowrap;
     }
+
 }

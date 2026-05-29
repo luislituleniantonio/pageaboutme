@@ -210,12 +210,13 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 .skills .head-skill h2,
 .skills .head-skill span {
     flex: 1;
-    min-width: 350px;
+    min-width: 200px;
 }
 
 
@@ -263,6 +264,7 @@
     border-radius: 50%;
     font-size: .65rem;
     border: 2px solid var(--color-font-300);
+    text-wrap: wrap;
 }
 
 @media screen and (max-width: 550px) {
@@ -301,6 +303,10 @@
 
     .personal .content h4 {
         font-size: .80rem;
+    }
+
+    .skills .head-skill span  {
+        margin-bottom: 15px;
     }
 
 }

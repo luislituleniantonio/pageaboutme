@@ -12,6 +12,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     min-height: 100dvh;
@@ -35,6 +39,7 @@ main {
     min-height: calc(100vh - var(--height));
     margin-top: var(--height);
     padding: 60px 30px;
+    user-select: none;
 }
 
 .btn-cta {
@@ -51,5 +56,11 @@ main {
 @media screen and (max-width: 895px) {
     .btn-cta {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    main {
+        margin-top: 10px;
     }
 }
