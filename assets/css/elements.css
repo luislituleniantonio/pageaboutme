@@ -270,9 +270,13 @@
 @media screen and (max-width: 550px) {
     
     .title-hero {
-        font-size: 3.5rem;
+        font-size: 2.2rem;
+        font-weight: bolder;
 
         margin-bottom: 25px;
+    }
+    .arrow {
+        transform: translateY(25px);
     }
 
     .container-follow {
@@ -308,7 +312,7 @@
     .skills .head-skill span  {
         margin-bottom: 15px;
     }
-
+ 
 }
 
 @media screen and (max-width: 395px) {

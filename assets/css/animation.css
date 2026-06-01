@@ -14,7 +14,7 @@ header {
 
 .title-hero {
     position: relative;
-    transform: translateX(-100%);
+    transform: translateX(-200%);
     animation: showheader .8s ease forwards;
     animation-delay: .3s;
 }
