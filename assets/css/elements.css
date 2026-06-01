@@ -159,11 +159,11 @@
 
 .session-post {
     width: 100%;
-    margin-top: 45px;
+    margin-top: 45px;           
 }
 
 .wrapper {
-    width: 100vw;
+    width: 100%;
     overflow-x: auto;
     display: flex;
     align-items: flex-end;
