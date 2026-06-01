@@ -1,0 +1,51 @@
+
+header {
+    transform: translateY(-100%);
+    animation: showheader .3s linear forwards;
+    animation-delay: 1.9s;
+}
+
+.personal {
+    position: relative;
+    opacity: 0;
+    animation: showheader .8s ease forwards;
+    animation-delay: 1.6s;
+}
+
+.title-hero {
+    position: relative;
+    transform: translateX(-100%);
+    animation: showheader .8s ease forwards;
+    animation-delay: .3s;
+}
+
+.text-subhead {
+    position: relative;
+    transform: translateX(-100%);
+    animation: showheader .8s ease forwards;
+    opacity: 0;
+    animation-delay: 2s;
+}
+
+.text-join {
+    position: relative;
+    transform: translateX(100%);
+    animation: showheader .8s ease forwards;
+    opacity: 0;
+    animation-delay: 2s;
+}
+
+.btn-cta {
+    position: relative;
+    transform: translateY(15px);
+    opacity: 0;
+    animation: showheader .8s ease forwards;
+    animation-delay: 2.4s;
+}
+
+@keyframes showheader {
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
